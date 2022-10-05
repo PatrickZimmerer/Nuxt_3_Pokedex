@@ -1,5 +1,9 @@
 <template>
 	<div>
-		<h1>Hello World!</h1>
+		<nuxt-page></nuxt-page>
 	</div>
 </template>
+
+<script setup>
+import '@/assets/css/tailwind.css';
+</script>
